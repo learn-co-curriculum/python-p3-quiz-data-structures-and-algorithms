@@ -89,7 +89,7 @@
       "position": null,
       "question_name": "Question 1",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>Which one of these is a FIFO(First in first out) data structure?&nbsp;</p>",
+      "question_text": "<p>Which one of these is a FIFO(First in first out) data structure?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -119,7 +119,7 @@
           "text": "",
           "html": "<p>Stack</p>",
           "comments": "",
-          "comments_html": "<p>Not quite! When can we access the first thing we added to the stack? Imagine a\nstack of books and you can only remove and add to the top.&nbsp;</p>",
+          "comments_html": "<p>Not quite! When can we access the first thing we added to the stack? Imagine a\nstack of books and you can only remove and add to the top.</p>",
           "weight": 0.0
         },
         {
@@ -127,7 +127,7 @@
           "text": "",
           "html": "<p>Dictionary</p>",
           "comments": "",
-          "comments_html": "<p>Incorrect, A dictionary does not keep track of insertion order.&nbsp;</p>",
+          "comments_html": "<p>Incorrect, A dictionary does not keep track of insertion order.</p>",
           "weight": 0.0
         }
       ],
@@ -146,7 +146,7 @@
       "position": null,
       "question_name": "Question 2",
       "question_type": "multiple_answers_question",
-      "question_text": "<p>What are the essential methods of a Stack?&nbsp;</p>",
+      "question_text": "<p>What are the essential methods of a Stack?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -156,36 +156,36 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7559/pages/stack-data-structure\">Stack Data Structure</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 1216,
+          "id": 1534,
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! We need to be able to add to the stack.</p>",
           "weight": 100.0,
-          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">push</span>\n</code></pre></div>"
+          "html": "<div class=\"highlight\"><pre class=\"highlight python\"><code><span class=\"n\">push</span>\n</code></pre></div>"
         },
         {
-          "id": 3176,
+          "id": 9860,
           "text": "",
           "comments": "",
-          "comments_html": "<p>Correct! We need to be able to take elements things from the top of the\nstack.&nbsp;</p>",
+          "comments_html": "<p>Correct! We need to be able to take elements things from the top of the\nstack.</p>",
           "weight": 100.0,
-          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">pop</span>\n</code></pre></div>"
+          "html": "<div class=\"highlight\"><pre class=\"highlight python\"><code><span class=\"n\">pop</span>\n</code></pre></div>"
         },
         {
-          "id": 5369,
+          "id": 2917,
           "text": "",
           "comments": "",
-          "comments_html": "<p>Not quite! We may write additional methods but this it is not an essential\nmethod of a stack.&nbsp;</p>",
+          "comments_html": "<p>Not quite! We may write additional methods but this it is not an essential\nmethod of a stack.</p>",
           "weight": 0.0,
-          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"nb\">print</span>\n</code></pre></div>"
+          "html": "<div class=\"highlight\"><pre class=\"highlight python\"><code><span class=\"k\">print</span>\n</code></pre></div>"
         },
         {
-          "id": 4189,
+          "id": 9243,
           "text": "",
           "comments": "",
-          "comments_html": "<p>Correct! This is how we can see what is on top of the stack.&nbsp;</p>",
+          "comments_html": "<p>Correct! This is how we can see what is on top of the stack.</p>",
           "weight": 100.0,
-          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">peek</span>\n</code></pre></div>"
+          "html": "<div class=\"highlight\"><pre class=\"highlight python\"><code><span class=\"n\">peek</span>\n</code></pre></div>"
         }
       ],
       "variables": null,
@@ -199,42 +199,42 @@
       "id": 366072,
       "quiz_id": 53503,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 3,
+      "assessment_question_id": 632216,
+      "position": null,
       "question_name": "Question 3",
       "question_type": "multiple_choice_question",
-      "question_text": "What is the time complexity for a Linked List search method?&nbsp;",
+      "question_text": "<p>What is the time complexity for a Linked List search method?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Resources: Singly Linked List Data Structure",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
-      "neutral_comments_html": "<p>Resources:&nbsp;</p>\n<p><a title=\"Singly Linked List Data Structure\" href=\"/courses/7559/pages/singly-linked-list-data-structure\">Singly Linked List Data Structure</a></p>",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7559/pages/singly-linked-list-data-structure\">Singly Linked List Data Structure</a></li></ul><p></p>",
       "answers": [
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_346",
-          "id": 346,
-          "text": "O(1)",
-          "comments": "Not quite. What if the element we are looking for is at the end of the list?",
-          "comments_html": "Not quite. What if the element we are looking for is at the end of the list?&nbsp;"
+          "id": 8765,
+          "text": "",
+          "html": "<p>O(1)</p>",
+          "comments": "",
+          "comments_html": "<p>Not quite. What if the element we are looking for is at the end of the\nlist?</p>",
+          "weight": 0.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_2134",
-          "id": 2134,
-          "text": "O(log n)",
-          "comments": "Not quite.",
-          "comments_html": "Not quite.&nbsp;"
+          "id": 4451,
+          "text": "",
+          "html": "<p>O(log n)</p>",
+          "comments": "",
+          "comments_html": "<p>Not quite.</p>",
+          "weight": 0.0
         },
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_7226",
-          "id": 7226,
-          "text": "O(n)",
-          "comments": "Correct! We may need to go through the entire linked list to find the element we are looking for.",
-          "comments_html": "Correct! We may need to go through the entire linked list to find the element we are looking for.&nbsp;"
+          "id": 7955,
+          "text": "",
+          "html": "<p>O(n)</p>",
+          "comments": "",
+          "comments_html": "<p>Correct! We may need to go through the entire linked list to find the element we\nare looking for.</p>",
+          "weight": 100.0
         }
       ],
       "variables": null,
@@ -252,7 +252,7 @@
       "position": null,
       "question_name": "Question 4",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>Calculate the&nbsp; <strong>time complexity</strong> &nbsp;for the following code using Big O\nnotation:</p>\n<div class=\"highlight\"><pre class=\"highlight python\"><code><span class=\"k\">def</span> <span class=\"nf\">append</span><span class=\"p\">(</span><span class=\"bp\">self</span><span class=\"p\">,</span> <span class=\"n\">node</span><span class=\"p\">):</span>\n  <span class=\"k\">if</span> <span class=\"bp\">self</span><span class=\"p\">.</span><span class=\"n\">head</span> <span class=\"o\">==</span> <span class=\"bp\">None</span><span class=\"p\">:</span>\n    <span class=\"bp\">self</span><span class=\"p\">.</span><span class=\"n\">head</span> <span class=\"o\">=</span> <span class=\"n\">node</span>\n    <span class=\"k\">return</span>\n  <span class=\"n\">last_node</span> <span class=\"o\">=</span> <span class=\"bp\">self</span><span class=\"p\">.</span><span class=\"n\">head</span>\n  <span class=\"k\">while</span> <span class=\"n\">last_node</span><span class=\"p\">.</span><span class=\"n\">next_node</span><span class=\"p\">:</span>\n    <span class=\"n\">last_node</span> <span class=\"o\">=</span> <span class=\"n\">last_node</span><span class=\"p\">.</span><span class=\"n\">next_node</span>\n  <span class=\"n\">last_node</span><span class=\"p\">.</span><span class=\"n\">next_node</span> <span class=\"o\">=</span> <span class=\"n\">node</span>\n</code></pre></div>",
+      "question_text": "<p>Calculate the <strong>time complexity</strong> for the following code using Big O\nnotation:</p>\n<div class=\"highlight\"><pre class=\"highlight python\"><code><span class=\"k\">def</span> <span class=\"nf\">append</span><span class=\"p\">(</span><span class=\"bp\">self</span><span class=\"p\">,</span> <span class=\"n\">node</span><span class=\"p\">):</span>\n  <span class=\"k\">if</span> <span class=\"bp\">self</span><span class=\"p\">.</span><span class=\"n\">head</span> <span class=\"o\">==</span> <span class=\"bp\">None</span><span class=\"p\">:</span>\n    <span class=\"bp\">self</span><span class=\"p\">.</span><span class=\"n\">head</span> <span class=\"o\">=</span> <span class=\"n\">node</span>\n    <span class=\"k\">return</span>\n  <span class=\"n\">last_node</span> <span class=\"o\">=</span> <span class=\"bp\">self</span><span class=\"p\">.</span><span class=\"n\">head</span>\n  <span class=\"k\">while</span> <span class=\"n\">last_node</span><span class=\"p\">.</span><span class=\"n\">next_node</span><span class=\"p\">:</span>\n    <span class=\"n\">last_node</span> <span class=\"o\">=</span> <span class=\"n\">last_node</span><span class=\"p\">.</span><span class=\"n\">next_node</span>\n  <span class=\"n\">last_node</span><span class=\"p\">.</span><span class=\"n\">next_node</span> <span class=\"o\">=</span> <span class=\"n\">node</span>\n</code></pre></div>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -266,7 +266,7 @@
           "text": "",
           "html": "<p>O(1)</p>",
           "comments": "",
-          "comments_html": "<p>Not quite! Is there a loop somewhere in the code?&nbsp;</p>",
+          "comments_html": "<p>Not quite! Is there a loop somewhere in the code?</p>",
           "weight": 0.0
         },
         {
@@ -282,7 +282,7 @@
           "text": "",
           "html": "<p>O(n&lt;sup&gt;2&lt;/sup&gt;)</p>",
           "comments": "",
-          "comments_html": "<p>Not quite! The code does not seem to be using nested loops.&nbsp;</p>",
+          "comments_html": "<p>Not quite! The code does not seem to be using nested loops.</p>",
           "weight": 0.0
         }
       ],
@@ -301,7 +301,7 @@
       "position": null,
       "question_name": "Question 5",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>When should we use a set?&nbsp;</p>",
+      "question_text": "<p>When should we use a set?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -311,9 +311,9 @@
       "neutral_comments_html": "",
       "answers": [
         {
-          "id": 7230,
+          "id": 1214,
           "text": "",
-          "html": "<p>To store a collection of&nbsp; <strong>unique</strong> &nbsp;values</p>",
+          "html": "<p>To store a collection of <strong>unique</strong> values.</p>",
           "comments": "",
           "comments_html": "<p>Correct! Since the algorithm needs to iterate through each letter of the input,\nthe time complexity will grow in linear proportion to the size of the input.</p>",
           "weight": 100.0
@@ -327,11 +327,11 @@
           "weight": 0.0
         },
         {
-          "id": 9067,
+          "id": 7532,
           "text": "",
-          "html": "<p>When we need a FIFO(First in first out) data structure?&nbsp;</p>",
+          "html": "<p>When we need a FIFO(First in first out) data structure?</p>",
           "comments": "",
-          "comments_html": "<p>Not quite. A set does not maintain insertion order.&nbsp;</p>",
+          "comments_html": "<p>Not quite. A set does not maintain insertion order.</p>",
           "weight": 0.0
         }
       ],
